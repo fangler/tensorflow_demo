@@ -3,8 +3,8 @@
 ### 环境准备
 安装工具和库如下
 1. 安装 tensorflow 
-    >[官网安装方式](https://www.tensorflow.org/install/install_windows)
-    >本人安装在windows下，只需要先安装好python3.6.3版本，配置到系统环境变量
+    >[官网安装方式](https://www.tensorflow.org/install/install_windows)  
+    >本人安装在windows下，只需要先安装好python3.6.3版本，配置到系统环境变量  
     >
     >然后使用`pip3 install --upgrade tensorflow`即可
     >
@@ -23,7 +23,8 @@
 进入官网后我们只需要下载红色链接的四个文件即可，下载的四个文件保存在一个目录后续会用到
 
 ### 编写代码
-此处参考了tensorflow的官方源码和其他同学的方案
+此处参考了tensorflow的官方源码和其他同学的方案  
+
 官方的源码在[这里](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/tutorials/mnist)， 这也是一个建议的demo。
 
 后来找到一个更加[完善一点的](https://github.com/wlmnzf/tensorflow-train)，包含了测试数字图片，所以直接拿来用了。
@@ -51,7 +52,8 @@ D:\Codes\tensorflow\tensorflow>python "C:\Program Files\Python36\Lib\site-packag
 es\tensorboard\main.py" --logdir logs
 ```
 
-`python ` **python tensorboard库安装目录下的 main.py**  --logdir  **训练数据目录**
+`python ` **python tensorboard库安装目录下的 main.py**  --logdir  **训练数据目录**  
+
 如果**训练数据的目录**是空的话我们在tensorBoard看不到任何东西
 
 如果上一步执行的命令没有错误，命令行会显示`TensorBoard 0.4.0rc2 at http://ubt-zhangfeng:6006 (Press CTRL+C to quit)` 字样，这表示tensorboard启动成功。
@@ -102,11 +104,11 @@ sess.close()
 
 
 
-**目前还没有清楚tensorBoard上的数据和按钮怎么操作。。。后面在学习。**
+**目前还没有清楚tensorBoard上的数据和按钮怎么操作。。。后面再学习。**
 
 
 
-本文项目已上传至[github](https://github.com/fangler/tensorflow_demo).
+本文项目已上传至[github](https://github.com/fangler/tensorflow_demo)， 仅供学习参考。。。
 
 
 
